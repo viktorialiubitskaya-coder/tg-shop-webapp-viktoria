@@ -3,10 +3,10 @@ tg.expand();
 
 // Mock Products
 const PRODUCTS = [
-    { id: 1, name: "Burrata 250g", price: 8.50, img: "https://i.ibb.co/L95yL2C/burrata.jpg" },
+    { id: 1, name: "Burrata 250g", price: 8.50, img: "https://images.unsplash.com/photo-1588194208035-7cb051cc720d?auto=format&fit=crop&q=80&w=200" },
     { id: 2, name: "Parmigiano Regg.", price: 12.00, img: "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?auto=format&fit=crop&q=80&w=200" },
-    { id: 3, name: "Chianti Classico", price: 18.00, img: "https://i.ibb.co/jz3qCp5/chianti.jpg" },
-    { id: 4, name: "Prosciutto di Parma", price: 15.00, img: "https://i.ibb.co/HC9GqF0/prosciutto.jpg" },
+    { id: 3, name: "Chianti Classico", price: 18.00, img: "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?auto=format&fit=crop&q=80&w=200" },
+    { id: 4, name: "Prosciutto di Parma", price: 15.00, img: "https://images.unsplash.com/photo-1603048297172-c92544798d5e?auto=format&fit=crop&q=80&w=200" },
     { id: 5, name: "Olio Extra Vergine", price: 14.50, img: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&q=80&w=200" }
 ];
 
