@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tg Shop Viktoria - Catalogo</title>
+    <!-- Telegram Web App JS SDK -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="glass-header">
+        <h1>🇮🇹 Sapori d'Italia</h1>
+        <p>Selezione esclusiva</p>
+    </header>
+
+    <main id="catalog" class="product-grid">
+        <!-- Products injected by JS -->
+    </main>
+
+    <!-- Cart Overlay -->
+    <div id="cart-summary" class="cart-summary hidden">
+        <div class="cart-info">
+            <span id="cart-total-items">0 Articoli</span>
+            <span id="cart-total-price">0.00 €</span>
+        </div>
+        <button id="checkout-btn" class="glow-btn">Visualizza Ordine <span class="arrow">→</span></button>
+    </div>
+
+    <!-- Modale Ordine -->
+    <div id="order-modal" class="modal hidden">
+        <div class="modal-content glass-panel">
+            <h2>Il tuo Carrello 🛒</h2>
+            <div id="modal-items-list" class="modal-items-list">
+                <!-- Cart items list here -->
+            </div>
+            <div class="modal-footer">
+                <div class="total-row">
+                    <span>Totale:</span>
+                    <strong id="modal-total-price">0.00 €</strong>
+                </div>
+                <button id="send-order-btn" class="glow-btn primary-glow">Invia Ordine</button>
+                <button id="close-modal-btn" class="text-btn">Torna al catalogo</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
